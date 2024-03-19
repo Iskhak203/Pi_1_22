@@ -1,0 +1,222 @@
+/* body{
+    background-color: rgb(19, 108, 232);
+    color: rgb(22, 22, 22);
+    
+}
+body :hover{
+    opacity: 1;
+}
+.header{
+    margin: auto;
+    width: 90%;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    box-shadow: 2px 2px 10px 5px rgb(94, 255, 0) ;
+    margin-bottom: 8px;
+    background: transparent;
+    border-radius: 10px;
+}
+.header.conteiner{
+    margin: auto;
+    width: 90%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+ 
+ }
+ body:hover{
+    opacity: 1;
+ }
+ 
+ .header{
+    margin: auto;
+    width: 90%;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+    display: flex; 
+    box-shadow: 2px 2px 10px 5px rgb(249, 0, 0) ;
+    margin-bottom: 8px;
+    background: transparent;
+    border-radius: 10px;
+    color: red;
+ 
+    /* background-image: url(https://img.freepik.com/free-vector/watercolor-mountains-background_23-2149226362.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1708992000&semt=ais);*/
+    /* box-shadow: 0 5px 18px rgba(247, 0, 0, 0.1);  */
+    
+ }
+ 
+ .header .container {
+    margin: auto;
+    width: 90%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+  }
+ 
+  .header-menu{
+   list-style-type: none; /* Li точкаларын жоготот */
+   padding-left: 0;
+   margin-bottom: 15px;
+   
+ 
+ }
+ 
+ 
+ .header-menu li {
+    display: inline-block;  
+    
+ }
+   
+ .header-menu li a {
+    display: inline-block;  
+    color: rgb(237, 24, 24);
+    opacity: 1;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 50px;
+    color: rgb(255, 0, 0);
+  }
+ 
+ .header-menu li a:hover { /*  ссылканы басканда прозрачный озорот */
+     opacity: 0.7;
+   }
+ 
+  .header-wrap{
+     display: flex;
+     flex-flow: row nowrap;
+  }
+  
+ .header-brand{
+    opacity: 1;
+    font-weight: 900;
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+     
+ }
+  
+ .header-brand:hover{
+   color: rgb(255, 0, 0);
+   opacity: 0.6;
+ }
+ 
+ 
+ /*================ Main ==================================== */
+ 
+ .container-main{
+    margin: auto;
+    width: 90%;
+    height: 437px;
+    /* background-image: url(https://img.freepik.com/free-vector/polygonal-dark-background_52683-4666.jpg?w=740&t=st=1709225960~exp=1709226560~hmac=5fcc931969d1db74d8aaec3cf6ac9f725fba5192a4b08062f12f9be3594af489); */
+    display: flex;
+    background-size: cover;
+    margin-bottom: 20px;
+ } 
+ 
+ main{
+    width: 60%;
+    height: inherit;
+    background-color: rgb(255, 0, 0);
+    float: left;
+    background:transparent;
+    }
+ 
+ h1{
+    text-align: center;
+    color: red;
+ }
+ section{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(245, 1, 1);
+    color: red;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    background:transparent;
+ }
+ section p{
+    font-size: 20px;
+    background:transparent;
+    font-style: italic;
+ }
+ 
+ 
+ /* ========================= aside ======================================== */
+ 
+ aside{
+   
+    width: 35%;
+    height: 90%;
+    background-color: rgb(255, 0, 0);
+    float: right;
+    margin-top: 20px;
+    background:transparent;
+    border-radius: 40px;
+    background-image: url(https://u.kanobu.ru/editor/images/18/6e72c3a8-6a70-438e-8ec8-739d03472d47.webp);
+    
+ }
+ aside img{
+    margin-left: 20px;
+    width: 420px;
+    height: 340px;
+  
+    
+ }
+ aside p{
+    margin: auto;
+    width: 90%;
+ }
+ 
+ /* ======================== footer ============================================ */
+ footer{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(250, 0, 0);
+    height: 80px;
+    background: transparent;
+    box-shadow: 1px 1px 5px 1px rgb(255, 5, 5);
+ 
+ }
+ footer .footer-container{
+    background-color: rgb(255, 0, 0);
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    background: transparent;
+ 
+ }
+ 
+ .footer-menu li{
+    display: inline-block;
+ }
+ 
+ .footer-menu li a{
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    color:  rgb(255, 0, 0);
+ }
+ 
+ .footer-brand{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color:  rgb(255, 0, 0);
+ }

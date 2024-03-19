@@ -1,0 +1,98 @@
+  
+  
+  .container{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(189, 69, 69);
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url(https://99px.ru/sstorage/86/2018/07/image_862807181751148357968.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body{
+    font-style: italic;
+}
+
+
+.header{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+.nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(168, 197, 90); */
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    
+
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    width: 100%;
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+form{
+    padding-left: 75%;
+    margin-top: -20px;
+   
+}
+.input{
+    /* border: 2px solid black; */
+    border-bottom: none;
+}
+img{
+   
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 9px;
+    /* border: 2px groove rgb(255, 255, 255); */
+}
+.img1{
+    width: 300px;
+    height: 380px;
+}
+.img2{
+    width: 300px;
+    height: 380px
+}
+.img3{
+    width: 300px;
+    height: 380px
+}
+img:hover{
+    border: 1px groove rgb(50, 166, 205);
+     
+}
+.span1{
+    opacity: 0.4;
+}
+span{
+    padding: 8px;
+}
+.span3{
+    padding-left: 14px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}

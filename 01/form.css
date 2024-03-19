@@ -1,0 +1,40 @@
+body {
+    font-style: italic;
+    color: rgb(47, 218, 75);
+    background-image: url(https://media.istockphoto.com/id/1222233279/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D0%B4%D1%80%D0%B8%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BC%D0%BE%D1%80%D1%8F.jpg?s=1024x1024&w=is&k=20&c=7_Qk3NJ-qWbd7cZ2wCudOrM3-2KB5OtMOM4QET3MbAs=);
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwkSG4hwv2fRWeLXO-hdy4hpGTK6sTfuvN6Q&usqp=CAU) */
+}
+.conteiner {
+  background-color: rgb(14, 77, 154);
+  margin-left: 25%;
+  border: 5px solid rgb(5, 253, 71);
+  width: 50%;
+  height: auto;
+  box-shadow:  10px 10px 20px rgb(147, 147, 212);
+  padding: 5px 20px 0 60px;
+}
+h1 {
+  text-align: center;
+  color: rgb(5, 253, 71);
+}
+.is1 {
+  width: 55%;
+  text-align: center;
+  color: rgb(5, 253, 71);
+
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.is3 {
+  margin: auto;
+  width: 90%;
+}
+.is4{
+    width: 90%;
+    margin: auto;
+}
+.is7{
+  width: 95%;
+    
+  padding: 1px 10px 0 40px;
+}
+

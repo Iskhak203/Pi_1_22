@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+</head>
+<body>
+    <div class="conteiner">
+    <h1>Адресс доставки</h1>
+    <label for="name" class="is1">Имя</label><br>
+    <input type="text" placeholder="Name" id="name">
+    <label for="familiname" class="is2"> Фамилия</label>
+    <input type="text" placeholder="familiname" id="familiname">
+    <p>
+        <label for="email" class="is3"> Email</label><br>
+        <input type="email" class="is3" placeholder="E-mail">
+    </p>
+    <p>
+        <label for="adres">Adres</label><br>
+        <input type="text  " class="is4" placeholder="Adres" id="adres">
+
+    </p>
+    <p>
+        <label for="strana"> Страна</label><br>
+        <select name="strana" id="strana">
+            <option value="Кыргызстан">Кыргызстан</option>
+            <option value="Узбекстан">Узбекстан</option>
+            <option value="Казакстан">Казакстан</option>
+        </select>
+    </p>
+    <p>
+        <label for="область">Область</label><br>
+        <select name="область" id="область">
+           <option value="Бишкек">Бишкек</option>
+           <option value="Ыссык кол">Ыссык кол</option>
+           <option value="Жалал-абад">Жалал-абад</option>
+           <option value="Нарын">Нарын</option>
+           <option value="Чуй">Чуй</option>
+           <option value="Ош">Ош</option>
+           <option value="Баткен">Баткен</option> 
+        </select>
+    </p>
+    <p>
+        <hr size="3">
+        <input type="checkbox" name="r" >связаться за ден доставки<br>
+        <input type="checkbox" name="r">сохранить информация для заказов<br>
+    <hr size="2"> 
+    </p>
+    <p>
+    <label for="">Платежная информация</label><br>
+    <input type="radio" name="s" value="0">оплата карта <br>
+    <input type="radio" name="s" value="1">наличии<br>
+    <input type="radio" name="s" value="2">М банк
+</p>
+<p>
+    <label for="imay" class="is5"> Имя</label><br>
+    <input type="text" name="imay" id="imay"><br>
+
+<span class="span">как на карте</span><br>
+<label for="inay">номер карты</label><br>
+<input type="number" class="is6" name="inay" id="inay">
+
+</p>
+<p>
+   <label for="srok"> Срок деймтвий</label><br>
+   <input type="number" name="cvv" id="srok" class="srok"><br>
+   <label for="cvv" class="Срок">CVV</label><br>
+   <input type="number" name="cvv" id="cvv">
+
+
+</p>
+<hr size="2">
+<input type="submit" class="is7" value="Оформить заказ">
+</div>
+</body>
+</html>
